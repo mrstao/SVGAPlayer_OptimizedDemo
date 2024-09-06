@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SVGAExPlayer"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "SVGARePlayer is a new SVGA player refactored based on SVGAPlayer."
 
   # This description is used to generate tags and improve search results.
