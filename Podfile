@@ -5,9 +5,8 @@ target 'SVGAPlayer_OptimizedDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'SVGAExPlayer', :path => './'
   pod 'SVProgressHUD'
-  pod 'Protobuf', '= 3.22.1'
-  pod 'SVGAPlayer'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|

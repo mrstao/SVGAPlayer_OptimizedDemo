@@ -1,6 +1,9 @@
 PODS:
   - Protobuf (3.22.1)
   - SSZipArchive (2.4.3)
+  - SVGAExPlayer (0.0.1):
+    - Protobuf (= 3.22.1)
+    - SVGAPlayer
   - SVGAPlayer (2.5.7):
     - SVGAPlayer/Core (= 2.5.7)
     - SVGAPlayer/ProtoFiles (= 2.5.7)
@@ -9,11 +12,12 @@ PODS:
     - SVGAPlayer/ProtoFiles
   - SVGAPlayer/ProtoFiles (2.5.7):
     - Protobuf (~> 3.4)
-  - SVProgressHUD (2.2.5)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
 
 DEPENDENCIES:
-  - Protobuf (= 3.22.1)
-  - SVGAPlayer
+  - SVGAExPlayer (from `./`)
   - SVProgressHUD
 
 SPEC REPOS:
@@ -23,12 +27,17 @@ SPEC REPOS:
     - SVGAPlayer
     - SVProgressHUD
 
+EXTERNAL SOURCES:
+  SVGAExPlayer:
+    :path: "./"
+
 SPEC CHECKSUMS:
   Protobuf: d7f7c8329edf5eb8af65547a8ba3e9c1cee927d5
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVGAExPlayer: f646efabd32b7b1a4852613e37856014d0b50161
   SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
 
-PODFILE CHECKSUM: 769d6ce8634b79c646cd7475cca5dd18a65ed629
+PODFILE CHECKSUM: e26bc0646667c482032eb2209c4ad810f0cfbb03
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
