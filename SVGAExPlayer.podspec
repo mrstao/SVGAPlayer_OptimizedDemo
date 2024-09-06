@@ -62,17 +62,10 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  spec.platform = :ios, '13.0'
-
   #  When using multiple platforms
+  spec.platform = :ios, '13.0'
   spec.ios.deployment_target = "13.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
-  # spec.visionos.deployment_target = "1.0"
-  
-    spec.swift_versions = ['5.0']
+  spec.swift_versions = ['5.0']
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,8 +111,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = 'Foundation', 'UIKit'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
