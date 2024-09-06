@@ -1,7 +1,7 @@
 PODS:
   - Protobuf (3.22.1)
   - SSZipArchive (2.4.3)
-  - SVGAExPlayer (0.0.1):
+  - SVGAExPlayer (0.1.0):
     - Protobuf (= 3.22.1)
     - SVGAPlayer
   - SVGAPlayer (2.5.7):
@@ -34,7 +34,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Protobuf: d7f7c8329edf5eb8af65547a8ba3e9c1cee927d5
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
-  SVGAExPlayer: f646efabd32b7b1a4852613e37856014d0b50161
+  SVGAExPlayer: 8bc79abee12ad219461c4fd5ffbf102bacc2a2da
   SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
 
